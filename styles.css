@@ -1,0 +1,155 @@
+/* Begin Styles Global */
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    font: normal 18px "Rubik", sans-serif;
+    background: #fafafa;
+    color: #333;
+}
+/*End Styles Global */
+
+/*Begin Styles Header*/
+.header-content {
+    background: white;
+    box-shadow: 0 0 5px #4a40ec;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-content__img {
+    margin: 20px;
+}
+
+.header-content__nav {
+    float: right;
+    margin: 35px;
+}
+
+.header-content__nav a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-content__nav a:hover {
+    border-bottom: 1px solid #e83e8c;
+}
+/* End Styles Header */
+
+/* Begin Styles Main */
+.basic-info-content__img {
+    width: 100%;
+}
+
+.basic-info-content__text {
+    position: absolute;
+    top: 300px;
+    margin: 50px;
+}
+
+.one,
+.two,
+.three {
+    color: #ffffff;
+    margin-bottom: .3em;
+    text-shadow: 1px 2px 10px rgba(0,0,0,0,5);
+}
+
+.basic-info-content__text__color {
+    background: #4a40ec;
+    max-width: 210px;
+    padding: 1em 1.2em;
+}
+
+.two {
+    font-size: 38px;
+}
+
+.three {
+    font-size: 25px;
+}
+
+.form-content {
+    position: fixed;
+    right: 60px;
+    top: 150px;
+    background: #e83e8c;
+    max-width: 350px;
+    box-shadow: 6px 10px 11px 0px rgba(28,175,154,1);
+}
+
+.form-content h3,
+.form-content-action div label {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 1px 2px 10px rgba(0,0,0,0.5);
+}
+
+.form-content-action div {
+    color: #ffffff;
+    margin: 15px;
+}
+
+.form-content-action div label {
+    display: block;
+    margin: 10px;
+}
+
+.form-content-action div input {
+    width: 100%;
+}
+
+.form-button {
+    background-color: #1caf9a;
+    width: 100%;
+    height: 35px;
+    text-shadow: 1px 2px 10px rgba(0,0,0,0.5);
+    color: #fafafa;
+    box-shadow: 6px 10px 11px 0px rgba(232,62,140,1);
+}
+
+main {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 25px;
+}
+
+.text-block {
+    padding: 50px 0;
+    border-bottom: 1px dotted #e83e8c;
+}
+
+.text_block h3 {
+    margin: 20px 0;
+}
+
+.img {
+    border-radius: 10%;
+    margin: 20px 0;
+}
+/* End Styles Main */
+
+/* Begin Styles Footer */
+.footer-content {
+    background-color: #4a40ec;
+    height: 100px;
+}
+
+.footer-img {
+    margin: 20px;
+}
+
+.footer-text {
+    color: #fafafa;
+    float: right;
+    margin: 35px;
+}
+/* End Styles Footer */
